@@ -32,6 +32,7 @@ input.onGesture(Gesture.Shake, function () {
 input.onButtonPressed(Button.AB, function () {
     Ascore = 0
     Bscore = 0
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
